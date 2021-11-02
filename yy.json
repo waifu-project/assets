@@ -1,0 +1,262 @@
+[
+  {
+    "name": "玖玖资源站",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://99zywcj.com",
+      "path": "/inc/ck.php"
+    }
+  },
+  {
+    "name": "狼少年资源站",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://cjmygzy.com",
+      "path": "/inc/api.php"
+    }
+  },
+  {
+    "name": "富二代资源站",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://f2dcj6.com",
+      "path": "/api"
+    }
+  },
+  {
+    "name": "字幕网资源站",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://zmcj88.com",
+      "path": "/api"
+    }
+  },
+  {
+    "name": "久草资源站",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://jcspcj8.com",
+      "path": "/api"
+    }
+  },
+  {
+    "name": "利来资源站",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://llzxcj.com",
+      "path": "/inc/ck.php"
+    }
+  },
+  {
+    "name": "博天堂资源站",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://bttcj.com",
+      "path": "/inc/sapi.php"
+    }
+  },
+  {
+    "name": "鲨鱼资源",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "https://shayuapi.com",
+      "path": "/api.php/provide/vod/at/xml/"
+    }
+  },
+  {
+    "name": "苍天",
+    "logo": "http://cj.cangtiancj.com/template/cangtianzy/images/logo.png",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://cj.cangtiancj.com",
+      "path": "/api.php/Seacms/vod/"
+    }
+  },
+  {
+    "name": "色色",
+    "logo": "",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://m.7777688.com",
+      "path": "/inc/api.php"
+    }
+  },
+  {
+    "name": "追剧吧",
+    "logo": "https://www.huaxiab.com/template/mytheme/statics/image/20200606/858def7fc.png",
+    "desc": "",
+    "nsfw": false,
+    "api": {
+      "root": "http://www.huaxiab.com",
+      "path": "/api.php/provide/vod/at/xml"
+    }
+  },
+  {
+    "name": "八戒云",
+    "logo": "",
+    "desc": "",
+    "nsfw": false,
+    "api": {
+      "root": "http://cj.bajiecaiji.com",
+      "path": "/inc/bjm3u8.php"
+    }
+  },
+  {
+    "name": "快播云",
+    "logo": "",
+    "desc": "",
+    "nsfw": false,
+    "api": {
+      "root": "http://www.kuaibozy.com",
+      "path": "/api.php/provide/vod/from/kbm3u8/at/xml"
+    }
+  },
+  {
+    "name": "6U资源",
+    "logo": "http://zy.ataoju.com/template/zyuanzhan/images/logo.png",
+    "desc": "",
+    "nsfw": false,
+    "api": {
+      "root": "http://zy.ataoju.com",
+      "path": "/inc/api.php"
+    }
+  },
+  {
+    "name": "最快资源",
+    "logo": "http://cj.1886zy.co/template/35zy/images/logo.png",
+    "desc": "本站为全网唯一一家使用全亚洲服务器加速播放的资源站！速度快到无法想象！",
+    "nsfw": false,
+    "api": {
+      "root": "http://cj.1886zy.co",
+      "path": "/inc/seacmsapi.php"
+    }
+  },
+  {
+    "name": "老鸭资源",
+    "logo": "https://api.apilyzy.com/statics/img/logo_min_f.png",
+    "desc": "提供最新最快的视频分享数据",
+    "nsfw": true,
+    "api": {
+      "root": "https://api.apilyzy.com",
+      "path": "/api.php/provide/vod/at/xml"
+    }
+  },
+  {
+    "name": "乐播资源",
+    "logo": "https://lbapi9.com/statics/img/logo_min_f.gif",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "https://lbapi9.com",
+      "path": "/api.php/provide/vod/at/xml"
+    }
+  },
+  {
+    "name": "花椒资源网",
+    "logo": "",
+    "desc": "永久地址：huajiaozy.com 备用地址：hujiaozy1.com【1到10】均可访问,请大家相互转告",
+    "nsfw": true,
+    "api": {
+      "root": "https://cj.apihjzy.com",
+      "path": "/inc/api.php"
+    }
+  },
+  {
+    "name": "605资源",
+    "logo": "http://www.605zy.com/template/caonima/images/logo.png",
+    "desc": "605资源永久免费，播放速度最快的资源，打造全网无广告资源(承诺绝不影响用户体验)",
+    "nsfw": false,
+    "api": {
+      "root": "http://www.605zy.co",
+      "path": "/inc/api.php"
+    }
+  },
+  {
+    "name": "百度资源",
+    "logo": "",
+    "desc": "",
+    "nsfw": false,
+    "api": {
+      "root": "https://m3u8.apibdzy.com",
+      "path": "/api.php/Seacms/vod"
+    }
+  },
+  {
+    "name": "大地资源",
+    "logo": "https://i.loli.net/2021/11/01/UOwJBS9pkGlLc2T.png",
+    "desc": "TG群: https://t.me/shayuzy",
+    "nsfw": true,
+    "api": {
+      "root": "https://dadiapi.com",
+      "path": "/api.php"
+    }
+  },
+  {
+    "name": "环亚资源",
+    "logo": "https://i.loli.net/2021/11/01/fhdIuW5nLqol7TK.png",
+    "desc": "",
+    "nsfw": true,
+    "api": {
+      "root": "http://wmcj8.com",
+      "path": "/inc/sapi.php"
+    }
+  },
+  {
+    "name": "人人资源",
+    "logo": "https://www.rrdyw.cc/static/picture/logo.png",
+    "desc": "人人电影网和人人影视是国内最优秀的电影迅雷下载、百度云盘资源网站，免费提供电影、韩剧、美剧、日剧资源，你想看的影视大片，这里都有。",
+    "nsfw": false,
+    "api": {
+      "root": "https://www.rrzyw.cc",
+      "path": "/api.php/provide/vod/from/rrm3u8/at/xml/"
+    }
+  },
+  {
+    "name": "名优馆",
+    "logo": "https://i.loli.net/2021/11/01/C1AQGS9xVWMNPbn.png",
+    "desc": "每日更新最新女优资讯,番号视频,女优写真,韩国主播,韩国写真,日韩伦理,国产伦理！",
+    "nsfw": true,
+    "api": {
+      "root": "http://mygzycj.com",
+      "path": "/api.php"
+    }
+  },
+  {
+    "name": "佳丽资源",
+    "logo": "",
+    "desc": "资源永久免费,资源不含任何广告,(承诺每天定时更新数据)",
+    "nsfw": true,
+    "api": {
+      "root": "https://jializyzapi.com",
+      "path": "/api.php/provide/vod/at/xml"
+    }
+  },
+  {
+    "name": "88电影资源网",
+    "logo": "http://www.88zyw.net/images/logo.gif",
+    "desc": "高清晰，高带宽，专业的电影视频资源采集！",
+    "nsfw": false,
+    "api": {
+      "root": "http://www.88zyw.net",
+      "path": "/inc/api.php"
+    }
+  }
+]
