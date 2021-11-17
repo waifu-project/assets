@@ -1,5 +1,17 @@
 [
-  "https://cdn.jsdelivr.net/gh/d1y/assets/yy.json",
-  "https://cdn.jsdelivr.net/gh/cuiocean/ZY-Player-Resources/Sites/Sites.json",
-  "https://cdn.jsdelivr.net/gh/cuiocean/ZY-Player-Resources/Sites/20210429.json"
+  {
+    "msg": "由官方维护的资源💐, 也包括了一些R18资源🔞\n<strong>注意: 资源全部来自网络抓取，数据无版权，不可用于商业用途，只可用于学习<</strong>\n",
+    "title": "内置资源📗",
+    "url": "https://cdn.jsdelivr.net/gh/waifu-project/assets/yy.json"
+  },
+  {
+    "msg": "",
+    "title": "ZY-Player(新)资源🚀",
+    "url": "https://cdn.jsdelivr.net/gh/cuiocean/ZY-Player-Resources/Sites/Sites.json"
+  },
+  {
+    "msg": "",
+    "title": "ZY-Player资源🚀",
+    "url": "https://cdn.jsdelivr.net/gh/cuiocean/ZY-Player-Resources/Sites/20210429.json"
+  }
 ]
