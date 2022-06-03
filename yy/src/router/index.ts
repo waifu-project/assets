@@ -1,15 +1,27 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 
-const routes = [
+const routes: RouteRecordRaw[] = [
   {
     path: "/",
-    name: "Home",
+    name: "主页",
     component: () => import("@/views/Home.vue"),
-  },
-  {
-    path: "/setting",
-    name: "Setting",
-    component: () => import("@/views/Setting.vue"),
+    children: [
+      {
+        path: "/assets",
+        name: "资源",
+        component: () => import("@/views/Assets.vue"),
+      },
+      {
+        path: "/generate",
+        name: "生成",
+        component: () => import("@/views/Generate.vue"),
+      },
+      {
+        path: "/about",
+        name: "关于",
+        component: () => import("@/views/About.vue"),
+      }
+    ]
   },
 ];
 
