@@ -13,7 +13,7 @@
         transition: `all ${hoverInit ? '.2s' : ''}`
       }"></li>
       <li
-        @mouseenter="handleMouseEnterNavItem($event, index)"
+        @mouseenter="handleMouseEnterNavItem($event)"
         @mouseleave="handleMouseLeave"
         v-for="(item, index) in menus" :key="index"
       >
@@ -35,6 +35,14 @@
 
 <script setup lang="ts">
 import { onMounted, ref, nextTick } from 'vue';
+import { onBeforeRouteUpdate } from 'vue-router';
+
+onBeforeRouteUpdate((to)=> {
+  const path = to.fullPath
+  const name = to.name as string
+  const index = menus.findIndex(item => item.path === path)
+  updateCurrentHoverChangeByIndex(index)
+})
 
 const menus = [
   {
@@ -61,8 +69,16 @@ const postion = ref<postionType>({
 
 const hoverInit = ref(false)
 const hoverWidth = ref<number>(0)
-function handleMouseEnterNavItem(event: MouseEvent, index: number) {
-  const target = event.target as HTMLElement
+function handleMouseEnterNavItem(event: MouseEvent) {
+  updateCurrentHoverChange(event)
+}
+
+function updateCurrentHoverChange(event: any) {
+  let target = event
+  if (event instanceof MouseEvent) {
+    target = (event).target
+  }
+  // const target = event.target as HTMLElement
   hoverWidth.value = target.clientWidth
   const left = target.offsetLeft
   hoverInit.value = true
@@ -70,6 +86,15 @@ function handleMouseEnterNavItem(event: MouseEvent, index: number) {
     x: left,
     y: 0,
   }
+}
+
+const beforeRouterHook = ref<boolean>(false)
+
+function updateCurrentHoverChangeByIndex(index: number) {
+  const arr = Array.from(document.querySelectorAll('.nav_item li'))
+  const target = arr[index + 1]
+  beforeRouterHook.value = true;
+  updateCurrentHoverChange(target as any)
 }
 
 onMounted(() => {
@@ -80,6 +105,7 @@ onMounted(() => {
 })
 
 function handleMouseLeave() {
+  if (beforeRouterHook.value) return
   hoverInit.value = false
 }
 </script>
