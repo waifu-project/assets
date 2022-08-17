@@ -1,1 +1,0 @@
-export const ABOUT_DATA_KEY = "aboutData"

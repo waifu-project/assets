@@ -1,1 +1,0 @@
-cp s.json yy/public/s.json
